@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .custom-table-div{
+  max-width: 1200px !important;
+ }
+
+ .custom-table, .custom-table td, .custom-table th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 15px;
+  }
+
+  .custom-table td img{
+    width: 100px;
+    height: auto;
+  }
+
+  .custom-table th{
+    width: auto;
+  }
+
+  .view-button{
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+  
+  }
